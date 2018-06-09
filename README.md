@@ -39,7 +39,7 @@ $ docker container exec -it jenkins-master cat /var/jenkins_home/secrets/initial
 4. Open URL in your browser and use output value of InitialAdminPassword for unlocked Jenkins (only first time)
 
 <pre>
-http://<your-ip>:8080
+http://your-ip:8080
 </pre>
 
 5. If is first time you install Jenkins, use output value of InicialAdminPassword for unlock Jenkis
