@@ -1,0 +1,16 @@
+version: '2'
+services:
+    jenkins:
+        container_name: jenkins-master
+        image: churrops/jenkins:2.126-alpine
+        privileged: true
+        restart: always
+        ports:
+            - "8080:8080"
+            - "50000:50000"
+        volumes:
+            - jenkins-data:/var/jenkins_home/
+            - /var/run/docker.sock:/var/run/docker.sock
+volumes:
+    jenkins-data:
+        driver: local
