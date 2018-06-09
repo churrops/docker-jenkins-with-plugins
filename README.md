@@ -1,6 +1,9 @@
 ## Jenkins Docker Container
 
+This project uses the Jenkins Official Image for build a new container with many plugins automatically, ready for use!
+
 Reference: https://github.com/jenkinsci/docker
+
 
 1. Get the project
 
