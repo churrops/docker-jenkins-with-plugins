@@ -44,4 +44,13 @@ http://your-ip:8080
 
 5. If is first time you install Jenkins, use output value of InicialAdminPassword for unlock Jenkis
 
+
+## Destroing the Project
+
+```
+docker container rm -f jenkins-master
+docker image rm -f churrops/jenkins:2.126-alpine
+docker volume delete jenkins_home
+```
+
 Enjoy!
