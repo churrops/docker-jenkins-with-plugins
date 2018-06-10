@@ -8,8 +8,8 @@ Reference: https://github.com/jenkinsci/docker
 1 - Get the project
 
 ```
-git clone https://github.com/churrops/docker-jenkins.git
-cd docker-jenkins/build
+git clone https://github.com/churrops/docker-jenkins-with-plugins.git
+cd docker-jenkins-with-plugins/build
 ```
 
 2 - Make image build 
