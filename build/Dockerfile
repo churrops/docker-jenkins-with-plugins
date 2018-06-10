@@ -13,5 +13,6 @@ RUN tar -xvzf /tmp/docker-latest.tgz && \
     chmod +x /usr/bin/docker && \
     rm -f /tmp/docker-latest.tgz
 
-RUN addgroup $USER docker
-RUN usermod -aG docker jenkins
+RUN apk --no-cache add shadow && \
+    addgroup $USER docker && \
+    usermod -aG docker jenkins
