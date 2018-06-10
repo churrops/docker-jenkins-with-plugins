@@ -14,3 +14,4 @@ RUN tar -xvzf /tmp/docker-latest.tgz && \
     rm -f /tmp/docker-latest.tgz
 
 RUN addgroup $USER docker
+RUN usermod -aG docker jenkins
