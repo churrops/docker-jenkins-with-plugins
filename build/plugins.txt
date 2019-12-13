@@ -38,7 +38,6 @@ branch-api
 build-timeout
 build-user-vars-plugin
 cloudbees-bitbucket-branch-source
-cloudbees-folder
 cobertura
 code-coverage-api
 command-launcher
