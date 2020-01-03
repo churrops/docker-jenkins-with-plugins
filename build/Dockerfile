@@ -1,4 +1,4 @@
-FROM jenkins/jenkins:2.208-alpine
+FROM jenkins/jenkins:2.211-alpine
 
 COPY plugins.txt /usr/share/jenkins/ref/plugins.txt
 COPY executors.groovy /usr/share/jenkins/ref/init.groovy.d/executors.groovy
