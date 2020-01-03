@@ -126,8 +126,6 @@ scmskip
 script-security
 SCTMExecutor
 sonar
-splunk-devops
-splunk-devops-extend
 sse-gateway
 ssh-credentials
 ssh-slaves
